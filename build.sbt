@@ -1,5 +1,5 @@
-name := "MyFirstApp"
-
-version := "0.1"
-
-scalaVersion := "2.13.1"
+val `MyFirstApp` = (project in file("."))
+  .settings(
+    version := "0.1",
+    scalaVersion := "2.13.1",
+  )
